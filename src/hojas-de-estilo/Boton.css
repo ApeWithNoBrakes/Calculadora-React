@@ -1,0 +1,50 @@
+.dark-theme .boton-contenedor {
+  height: 83px;
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 38px;
+  background-color: #2f2f39;
+  color: white;
+  border-radius: 25px;
+  border: 2px solid white;
+  margin: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+.dark-theme .boton-contenedor:hover {
+  background-color: #4e505c;
+}
+.dark-theme .operador {
+  background-color: #4a5df3;
+}
+.dark-theme .operador:hover {
+  background-color: #3a49c0;
+}
+.light-theme .boton-contenedor {
+  height: 83px;
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 38px;
+  background-color: #9bfab0;
+  color: #333333;
+  border-radius: 25px;
+  border: 2px solid #333333;
+  margin: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+.light-theme .boton-contenedor:hover {
+  background-color: #3ab8b0;
+}
+.light-theme .operador {
+  background-color: #9affff;
+}
+.light-theme .operador:hover {
+  background-color: #8f3d38;
+}

@@ -1,0 +1,37 @@
+.dark-theme .boton-clear {
+  height: 80px;
+  font-size: 1.6em;
+  display: flex;
+  flex: 1;
+  background-color: #ac0246;
+  margin-top: 8px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  border-radius: 45px;
+  cursor: pointer;
+}
+.dark-theme .boton-clear:hover {
+  background-color: #ebb000;
+}
+.light-theme .boton-clear {
+  height: 80px;
+  font-size: 1.6em;
+  display: flex;
+  flex: 1;
+  background-color: #ef2947;
+  margin-top: 8px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #333333;
+  border: 2px solid #333333;
+  border-radius: 45px;
+  cursor: pointer;
+}
+.light-theme .boton-clear:hover {
+  background-color: #f5f649;
+  ;
+}
